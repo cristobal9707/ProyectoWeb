@@ -12,12 +12,22 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-image: url(https://images2.alphacoders.com/102/1026253.jpg);
+                background-repeat: no-repeat;
+                background-color: #cccccc;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+            }
+            .card{
+                background-color:#fff; 
+                padding: 30px;
+                border-radius: 50px 50px 50px 50px;
+                -moz-border-radius: 50px 50px 50px 50px;
+                -webkit-border-radius: 50px 50px 50px 50px;
+                border: 0px solid #000000;
             }
             .full-height {
                 height: 100vh;
@@ -55,11 +65,11 @@
             }
         </style>
     </head>
-    <body>
+    <body background="ruta/archivo.png" width="100%" height="100">
         <div class="flex-center position-ref full-height">
             
-
-            <div class="content">
+            
+            <div class="content card">
                 <div class="title m-b-md">
                     Salud Temuco
                 </div>
@@ -78,6 +88,7 @@
             @endif
 
             </div>
+            
         </div>
     </body>
 </html>

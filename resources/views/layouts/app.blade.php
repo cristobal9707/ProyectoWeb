@@ -15,10 +15,38 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+            @media screen and (max-width: 600px) {
+                        table {
+                            width: 100%;
+                        }
+                        thead {
+                            display: none;
+                        }
+                        tr:nth-of-type(2n) {
+                            background-color: inherit;
+                        }
+                        tr td:first-child {
+                            background: #f0f0f0;
+                            font-weight: bold;
+                            font-size: 1.3em;
+                        }
+                        tbody td {
+                            display: block;
+                            text-align: center;
+                        }
+                        tbody td:before {
+                            content: attr(data-th);
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+            </style>
 
 </head>
 <body>
     <div id="app">
+        
         <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">

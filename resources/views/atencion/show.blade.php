@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div id="app">
-        <v-app id="inspire" style="background-color:#2ecc71">
+        <v-app id="inspire" style="background-image: url(https://images2.alphacoders.com/102/1026253.jpg);">
             <v-container grid-list-lg>
                 <v-layout align-space-around justify-center column class="form-contenedor">
                     <v-card style="padding: 10px; margin-bottom: 10px;">                  
